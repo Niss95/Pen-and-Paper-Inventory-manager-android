@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">InventarManager</string>
+    <string name="settings">settings</string>
+    <string name="user_2">user 2</string>
+    <string name="user_1">user 1</string>
+    <string name="weapons">weapon</string>
+    <string name="inventory">Inventory</string>
+    <string name="newItem">+</string>
 </resources>
