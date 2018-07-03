@@ -15,30 +15,21 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <android.support.design.widget.TabLayout
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <android.support.design.widget.TabItem
-                android:layout_width="wrap_content"
+            <android.support.v4.view.PagerTabStrip
+                android:id="@+id/view_pager_header"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/weapons" />
+                android:layout_gravity="top"
+                android:padding="5dp"
+                android:background="@color/colorPrimary"/>
 
-            <android.support.design.widget.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/inventory" />
 
-            <android.support.design.widget.TabItem
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/newItem" />
-
-        </android.support.design.widget.TabLayout>
-
-        <android.support.v4.view.ViewPager
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        </android.support.v4.view.ViewPager>
 
     </LinearLayout>
 
